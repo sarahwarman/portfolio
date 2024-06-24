@@ -1,0 +1,48 @@
+body { 
+    padding: 20px; 
+    font-family: 'Arial, sans-serif';
+}
+.content { 
+    max-width: 960px; 
+    margin: auto; 
+}
+header, footer { 
+    text-align: center; 
+    padding: 20px; 
+    background-color: #f8f9fa;
+    border: 1px solid #e2e3e5;
+}
+.case-study { 
+    margin-bottom: 20px; 
+}
+h1 { 
+    color: #0071bc; 
+}
+a { 
+    color: #0056b3; 
+    text-decoration: none; 
+}
+a:hover { 
+    text-decoration: underline; 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0071bc;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
